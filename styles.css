@@ -12,8 +12,14 @@ header {
     background-image: linear-gradient(white 60px, transparent 60px);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .looseleaf {
     width: 90%;
+    max-width: 1000px;
     padding: 80px 20px 20px 40px;
     background-color: white;
     position: relative;
